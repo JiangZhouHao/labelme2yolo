@@ -1,0 +1,3 @@
+使用代码将labelme转换后
+启动labelimg时，必须指定classes，不然打开会覆盖原有的classes.txt
+指令：labelImg ./train_data/images/train ./train_data/labels/train/classes.txt
